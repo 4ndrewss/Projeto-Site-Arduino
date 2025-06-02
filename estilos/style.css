@@ -1,0 +1,285 @@
+body{
+    background-color: #E3F2FD;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    background-color: #4078b9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 50px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0; 
+    font-size: 50px;
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(164, 218, 240);
+}
+
+/* index */
+#index-logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+}
+
+#desc-text {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1800px;
+    margin: 0 auto;
+    background-color: #ABAABD;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    font-size: 18px;
+    margin-bottom: 40px
+}
+
+footer {
+    background-color: #3c72b0;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.chaves ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.chaves ul li {
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+/*sobre */
+.tabela-licoes {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    border-collapse: collapse
+}
+
+.tabela-licoes th {
+    background-color: #2C5F8A;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    border: 2px solid #1E3C5A;
+}
+
+.tabela-licoes td {
+    background-color: #A6C8E0;
+    padding: 8px 12px;
+    border: 2px solid #1E3C5A
+}
+
+#sobre-box {
+    max-width: 500px;
+    margin: 40px auto; 
+    padding: 25px;
+    border: 2px solid #1E3C5A;
+    border-radius: 6px;
+    background-color: #D7E7F5;
+    text-align: center
+}
+
+#sobre-box h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #2C5F8A
+}
+
+#sobre-box ul {
+    padding-left: 0
+}
+
+#sobre-box ul li {
+    display: inline-block;
+    margin: 0 12px
+}
+
+
+#sobre-esquema {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0
+}
+
+#sobre-esquema h2 {
+    text-align: center
+}
+
+#sobre-esquema img {
+    width: 600px;
+    height: auto
+}
+
+/* tutorial */
+.tutorial-requisitos {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px
+}
+
+.tutorial-lista {
+  list-style: disc inside;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: left
+}
+
+.tutorial-lista li {
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.tutorial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0
+}
+
+.tutorial-passo {
+    display: inline-block;
+    text-align: center;
+    white-space: normal;
+    vertical-align: top
+}
+
+.tutorial-passo img {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin: 0 5px 12px;
+    border: 2px solid #1E3C5A;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+
+.tutorial-passo .tutorial-legenda {
+    margin: 0;
+    font-weight: bold;
+    color: #2C5F8A;
+    font-size: 1rem;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-word;
+    max-width: 800px
+}
+
+.tutorial-h2 {
+    text-align: center
+}
+
+#tutorial-yt {
+    display: block;
+    margin: 0 auto
+}
+
+/*codigo*/
+.codigo-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #A6C8E0;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.codigo-container pre {
+    margin: 0;
+    overflow-x: auto;
+    background: #2d2d2d;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.codigo-container code {
+    display: block;
+    font-family: 'Courier New';
+    font-size: 16px;
+    line-height: 1.4;
+    color: white;
+    white-space: pre-wrap;
+    word-break: break-word
+}
+
+.codigo-container .codigo-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0366d6;
+}
+
+.codigo-container .codigo-link:hover {
+    color: #024ea2;
+    text-decoration: underline;
+}
+
+.codigo-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 30px
+}
+
+.codigo-download-button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.codigo-download-button:hover {
+    background-color: #0056b3;
+    text-decoration: underline;
+}

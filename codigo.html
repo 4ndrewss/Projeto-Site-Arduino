@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloads</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>BoiaSmart</h1>
+        <nav>
+            <ul>
+                <li><strong><a href="index.html">Pagina Principal</a></strong></li>
+                <li><strong><a href="tutorial.html">Passo a Passo</a></strong></li>
+                <li><strong><a href="sobre.html">Mais sobre o projeto</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="codigo-container">
+        <pre><code>
+if (leiturasensor1 == HIGH && leiturasensor2 == HIGH) {
+    digitalWrite(LedVermelho, LOW);
+    digitalWrite(LedAmarelo, LOW);
+    digitalWrite(LedVerde, HIGH);
+    // se os dois tiverem com 1, a led verde brilha, o resto apaga
+}
+else if (leiturasensor1 == HIGH) {
+    digitalWrite(LedVermelho, LOW);
+    digitalWrite(LedAmarelo, HIGH);
+    digitalWrite(LedVerde, LOW);
+    // caso os dois não estejam com 1, aqui checa se o de baixo pelo menos esteja com 1, se tiver, a led amarela brilha
+}
+else {
+    digitalWrite(LedVermelho, HIGH);
+    digitalWrite(LedAmarelo, LOW);
+    digitalWrite(LedVerde, LOW);
+    // aqui é caso ambos tenham 0, a led vermelha brilha
+}
+        </code></pre>
+        <a class="codigo-link" href="https://github.com/ArchangelLoer/Projeto-Codigo-Arduino.git">
+            Ver repositório completo no GitHub
+        </a>
+    </div>
+
+    <div class="codigo-download">
+        <a href="assets/projeto.rar" download class="codigo-download-button">
+            Baixar ZIP
+        </a>
+  </div>
+</body>
+</html>

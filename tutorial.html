@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passo a Passo</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>BoiaSmart</h1>
+        <nav>
+            <ul>
+                <li><strong><a href="index.html">Pagina Principal</a></strong></li>
+                <li><strong><a href="codigo.html">Codigo e Downloads</a></strong></li>
+                <li><strong><a href="sobre.html">Mais sobre o projeto</a></strong></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2 class="tutorial-h2">Requisitos</h2>
+    <div class="tutorial-requisitos">
+        <ul class="tutorial-lista">
+            <li>1 Arduino Uno</li>
+            <li>1 Protoboard</li>
+            <li>3 Resistores de 220Ω</li>
+            <li>2 Resistores de 1KΩ</li>
+            <li>3 LEDs</li>
+            <li>7 Jumpers</li>
+            <li>2 Sensores de Nível de Água tipo Boia</li>
+            <li>1 Balde</li>
+        </ul>
+    </div>
+
+    <h2 class="tutorial-h2">Passo a Passo</h2>
+    <div class="tutorial-container">
+        <div class="tutorial-passo">
+            <img src="assets/passo 1 foto.jpeg" alt="Passo 1 foto">
+            <img src="assets/passo 1 tinkercad.jpeg" alt="Passo 1 Tinkercad">
+            <p class="tutorial-legenda">Coloque um jumper do GRD na linha negativa e um jumper do 5V para a linha positiva</p>
+        </div>
+        <div class="tutorial-passo">
+            <img src="assets/passo 2 foto.jpeg" alt="Passo 2 foto">
+            <img src="assets/passo 2 tinkercad.jpeg" alt="Passo 2 Tinkercad">
+            <p class="tutorial-legenda">Coloque jumpers no digital pin 2, 5, 8, 10 & 12 e os conecte a protoboard nos locais sugeridos</p>
+        </div>
+        <div class="tutorial-passo">
+            <img src="assets/passo 3 foto.jpeg" alt="Passo 3 foto">
+            <img src="assets/passo 3 tinkercad.jpeg" alt="Passo 3 Tinkercad">
+            <p class="tutorial-legenda">Coloque os dois resistores 10k ligando o GRD ao jumper na digital pin 2 & 5</p>
+        </div>
+        <div class="tutorial-passo">
+            <img src="assets/passo 4 foto.jpeg" alt="Passo 4 foto">
+            <img src="assets/passo 4 tinkercad.jpeg" alt="Passo 4 Tinkercad">
+            <p class="tutorial-legenda">Coloque os outros três resistores 300 ligando o GRD a um burado no lado direito do jumpers 8, 10 & 12</p>
+        </div>
+        <div class="tutorial-passo">
+            <img src="assets/passo 5 foto.jpeg" alt="Passo 5 foto">
+            <img src="assets/passo 5 tinkercad.jpeg" alt="Passo 5 Tinkercad">
+            <p class="tutorial-legenda">Coloque as LEDs certificando que o anodo está na mesma linha que o jumper, e que o LED vermelha esteja conectada com o jumper 8, o amarelo no jumper 10 e o verde no jumper 12</p>
+        </div>
+        <div class="tutorial-passo">
+            <img src="assets/passo 6 foto.jpeg" alt="Passo 6 foto">
+            <img src="assets/passo 6 tinkercad.jpeg" alt="Passo 6 Tinkercad">
+            <p class="tutorial-legenda">Conecte os sensores, uma na linha com o 5V e outro em cima do jumper da digital pin 2 & 5, agora os sensores estão conectados e as LEDs piscaram com os dados que os sensores enviar!</p>
+        </div>
+    </div>
+
+    <h2 class="tutorial-h2">Video Youtube</h2>
+    <iframe id="tutorial-yt" width="560" height="315" src="https://www.youtube.com/embed/ZzMh8BErU5A?si=OUqiKAvzOQ-W6qUp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
